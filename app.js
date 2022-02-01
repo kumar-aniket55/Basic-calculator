@@ -52,6 +52,16 @@ function input_value(x)
 }
 function pi(x)
 {
+     if(document.getElementById("input").value=="INVALID")
+    {
+        document.getElementById("input").value="";
+        result_string="";
+    }
+          
+    if(document.getElementById("input").value=='ENTER')
+    {
+        document.getElementById("input").value="";
+    }
     document.getElementById("input").value+=x;
     result_string+="3.14159265359";
 
