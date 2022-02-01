@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /* justify-content:space-between; */
+    flex-direction: row;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #d9d9d9;
+}
+.container{
+    width: 30%;
+    background-color:#343a40;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 200px;
+    
+}
+.screen{
+    width: 100%;
+}
+#input{
+    width: 100%;
+    height: 50px;
+    background-color:#343a40;
+    border: 0;
+    color: white;
+    font-size:xx-large;
+    font-weight: 500;
+    text-align: right;
+    /* border: 2px solid red; */
+    padding:40px;
+    border-radius: 20px;
+   
+}
+.btn{
+    padding: 15px !important;
+}
+.row-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+}
+.big-button{
+    width: 110px   !important; 
+}
+.container{
+    border-radius: 20px;
+}
+.intro{
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro p{
+    text-align: center;
+    font-size: xx-large;
+}
+.row5{
+    padding: 10px;
+}
+@media screen and (max-width: 790px)
+{
+  .container{
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 30px;
+      margin-top: 30px;
+      
+  }   
+  .expo , .divid{
+      padding:7px !important;
+      width: 22% !important;
+  }
+  .expo{
+      font-size: 15px;
+  }
+  .clear{
+      padding: 10px !important;
+      width: 45% !important;
+      height: 39px !important;
+  }
+  .intro p
+  {
+      font-size: x-large;
+  }
+  body{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+}
